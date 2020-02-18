@@ -1,0 +1,206 @@
+-webkit-::selection{
+    background: #2573b9;
+    color: #fff;
+    text-shadow: none;
+}
+-moz-::selection{
+    background: #2573b9;
+    color: #fff;
+    text-shadow: none;
+}
+::selection{
+    background: #2573b9;
+    color: #fff;
+    text-shadow: none;
+}
+
+.btn-primary{
+	-webkit-transition: all .2s linear;
+	-moz-transition: all .2s linear;
+	transition: all .2s linear;
+}
+
+.login .remember, .list-menu h3,
+.carousel-control.right, .carousel-control.left, .flag i, .last-lessons strong,
+.com .com-header .com-n .name.admin{
+	color: #337ab7 !important;
+	/*color: #ff8400 !important;*/
+}
+.navbar>.container .navbar-brand, .alert-info,
+.navbar>.container-fluid .navbar-brand, .navbar .login-signup a,
+.index-header h1{
+    color: #FFF; /*#929292;*/
+}
+.btn-primary:not(.login .btn-primary){
+	background: #ff8400;
+	border-color: #ff8400;
+}
+.btn-primary:hover:not(.login .btn-primary){
+	color: #ff8400;
+    background-color: #ffffff;
+    border: 1px solid #ff840052;
+}
+.alert-info{
+	background-color: #333; /*#ff8400;*/
+}
+/* End Global Style */
+
+
+/* Start Navbar Style */
+.navbar-inverse{
+	background: rgba(36, 36, 36, 0.8901960784313725);
+    border-color: #242424;
+}
+
+.dashboard, div.custom-dropdown, .navbar .search-btn,
+.navbar .menu{
+	color: #FFF !important;
+}
+.dashboard:hover, div.custom-dropdown:hover{
+    color: #c3c3c3 !important;
+}
+/*.custom-dropdown, .dashboard{
+	color: #333 !important;
+}*/
+.custom-dropdown .dropdown-menu:before{
+	border-color: transparent transparent #070707 transparent;
+}
+.custom-dropdown .dropdown-menu a{
+	color: #FFF;
+	position: relative;
+}
+.custom-dropdown .dropdown-menu li:not(:last-child) a{
+	border-bottom: 1px solid #525252;
+}
+.custom-dropdown .dropdown-menu a:hover{
+    color: #ff8400 !important;
+    background: transparent;
+}
+.custom-dropdown .dropdown-menu a:hover:before{
+    width: 100%;
+}
+.lower-nav .search{
+	z-index: 100;
+}
+.index-header{
+	background-color: rgb(51, 122, 183);
+}
+/* End Navbar Style */
+
+/* List Menu style */
+.list-menu{
+	background: #EEE;
+	/*border-left: 6px outset #ff8400;*/
+}
+.list-menu .personal > a div{
+	border-right: 3px solid #337ab7 !important;
+    background: #FFF !important;
+    color: #333 !important;
+}
+.list-menu .parent-title > span:first-child{
+	border-bottom: 2px solid #2f6a9d;
+	color: #333;
+}
+.list-menu .child-title{
+	background: #ffffff;
+    color: #333;
+    border-bottom: 1px solid #dadada;
+}
+.list-menu .child-title:hover{
+	color: #337ab7;
+    background: #ffffff;
+    border-bottom: 1px solid #337ab7;;
+}
+.list-menu .lang a{
+	color: #FFF;
+    background: #1c669f;
+    padding: 5px 10px;
+}
+
+/* End Navbar Style */
+
+/* Start Indxe Page */
+.index-header .see-more a{
+	animation: seeMore 2s linear infinite alternate;
+}
+
+@keyframes seeMore{
+	from{
+		color: #FFF;
+	}
+	to{
+		color: #337ab7;
+	}
+}
+
+.index .bar-word li{
+	color: #000;
+    font-size: 15px;
+}
+.home-state{
+	background: #FAFAFA;
+}
+.last-lessons h2 span:before, .last-lessons h2 span:after{
+	border: 2px solid #1c669f;
+}
+.lesson-info .body h3 a{
+	color: #545454;
+}
+.lesson-info .body h3 a:hover{
+	color: #000;
+}
+/* End Indxe Page */
+
+/* Start Footer Style */
+.footer{
+	background: #FAFAFA;
+    color: #616161;
+}
+/* End Footer Style */
+
+/* Start Titles Page */
+.titles .header .title-overlay,
+.lessons .header .lesson-overlay{
+    background: rgba(7, 38, 66, 0.8);
+}
+.titles .header h1, .lessons .header h1{
+	color: #ffffff;
+    /*text-shadow: 1px 1px 1px #ff8400;*/
+}
+.lessons .header .under-name > span a, 
+.lessons .header .under-name > span{
+	color: rgb(7, 34, 59);
+}
+.titles .folder-file .folder:hover,
+.titles .folder-file .file:hover{
+	background: rgba(18, 70, 193, 0.14);
+}
+.titles .folder-file{
+	/*background-color: #FFF;*/
+}
+/* End Titles Page */
+
+/* Start lessons Page */
+.com h2{
+	color: #FFF;
+	background-color: #2573b9;
+}
+
+/* End lessons Page */
+
+/* Start Settings Page */
+.info .info-body h2, .info h1{
+	color: #337ab7;
+}
+
+/* End Settings Page */
+
+/* change the colors of the index page when the navbar when scrolling*/
+/*.dashboard.inactive-colors,
+div.custom-dropdown.inactive-colors, 
+.navbar .search-btn.inactive-colors, 
+.navbar .menu.inactive-colors,
+.navbar .notify.inactive-colors,
+.navbar .msg.inactive-colors{
+	color: #FFF !important;
+}*/

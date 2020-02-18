@@ -1,0 +1,16 @@
+
+#make the user open .php file only
+<FilesMatch  "\.(php)$">
+
+Order allow,deny
+
+Allow from all
+
+</FilesMatch>
+
+php_value upload_max_filesize 1000M
+php_value post_max_size 500M
+
+
+#Prevent Directory Listing
+options -indexes

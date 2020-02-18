@@ -1,0 +1,155 @@
+@font-face {
+    font-family: "droidArabicKofiFont";
+    src: url(../../admin/layout/fonts/droidArabicKofi.ttf);
+}
+
+
+body{
+	font-family: "droidArabicKofiFont", 'Droid Sans', sans-serif;
+}
+
+/* Start Global style */
+
+.list-menu, .info, .body-container .new-msg-field,
+.pref-info,.lesson-info .body, .messages *,
+.pro .pro-avatar .avatar-info, .com, .delete-data,
+.titles .folder-file .icon-name, .last-lessons h2,
+.titles .folder-file, input:not([type=submit]), 
+.errors, .login .remember, textarea, .path-bar, .edit-com-field,
+.navbar .notify .dropdown-menu, .navbar .msg .dropdown-menu{
+	direction: rtl;
+}
+
+.lower-nav .search input{
+	direction: rtl;
+}
+
+/* End Global style */
+
+
+/* Start Navbar style */
+.custom-dropdown .dropdown-menu{
+	text-align: right;
+}
+div.custom-dropdown:before, .nav-dashboard:before{
+	right: 0;
+	left: auto;
+}
+.navbar .msg .msg-header span:last-of-type,
+.navbar .msg .msg-footer span:last-of-type{
+    left: 10px;
+    right: auto;
+}
+.body-container .new-msg-field .new-msg-header span:last-of-type{
+    right: auto;
+    left: 12px;
+    top: 11px;
+}
+
+/* End Navbar style */
+
+/* Start list-menu style */
+
+.list-menu .personal{
+	margin: 5px 9px 0 0;
+}
+.parent-title-con{
+	padding: 0;
+    margin: 0 0 0 0;
+}
+.list-menu .parent-title > span:first-child > i{
+	left: 10px;
+	right: auto;
+	top: auto;
+}
+.list-menu .child-title-con{
+	padding: 0;
+}
+/* End list-menu style */
+
+/* Start Remember me style */
+.login .remember label{
+	margin: 0 5px;
+}
+/* End Remember me style */
+
+
+/* Start Settings Page */
+.input-container .col-sm-2{
+	float: right;
+	margin: 5px 0 0 0;
+}
+.col-sm-10 .col-sm-offset-2{
+	margin-left: 0
+}
+.info .info-body h2{
+	border-right: 3px solid #597ab7 !important;
+	border-left: unset;
+    
+    -webkit-box-shadow: 1px 0px 1px rgba(152, 152, 152, 0.5019607843137255);
+    -moz-box-shadow: 1px 0px 1px rgba(152, 152, 152, 0.5019607843137255);
+    box-shadow: 1px 0px 1px rgba(152, 152, 152, 0.5019607843137255);
+}
+/* End Settings Page */
+
+
+/* Start Index Page */
+.last-lessons h2 span:after{
+	right: 0;
+	left: unset;
+}
+/* End Index Page */
+
+/* Start Profile Page */
+.avatar-info .links{
+	left: 0;
+	right: auto;
+}
+.com .com-body .com-header{
+	margin-bottom: 8px;
+}
+.com .com-body .com-header .lesson-n{
+	right: auto;
+    left: 0;
+}
+.com .com-body .com-header .com-n{
+	margin: 0 17px 0 0;
+}
+@media (max-width: 768px){
+	.com .com-body .com-header .lesson-n{
+		right: auto !important;
+	}
+	
+}
+.com .com-body .com-footer .under-com  .emoji-detail .num{
+    margin: 0 0 0 10px;
+}
+/* End Profile Page */
+
+/* Start titles Page */
+.titles .folder-file ul{
+	padding: 0;
+}
+.titles .folder-file .grid{
+	text-align: left;
+}
+.titles .folder-file .grid .back{
+	right: 6px;
+	left: auto;
+}
+.titles .folder-file .grid .back i{
+	position: relative;
+    top: 4px;
+}
+/* End titles Page */
+
+/* Start Messages Page */
+.messages .members-head span:last-of-type{
+    left: 8px;
+    right: auto;
+}
+.members-con .one-member .mem-info .name-date .mem-date{
+	right: auto;
+	left: 0;
+}
+/* End Messages Page */

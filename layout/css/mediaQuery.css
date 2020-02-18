@@ -1,0 +1,533 @@
+@media (min-width: 1200px){
+
+	/*Start Index Page*/
+	.last-lessons .lesson-info{
+		/*max-height: 160px;*/
+	}
+	/*End Index Page*/
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+
+	/*Start Index Page*/
+	.last-lessons .lesson-info{
+		/*max-height: 160px;*/
+	}
+	
+	/*End Index Page*/
+
+	/* Start Profile Page */
+	/*.pro .pro-cover .img-con img{
+		top: -90%;
+	}*/
+	/* End Profile Page */
+
+
+}
+@media (max-width: 1199px){
+	/*Start Index page*/
+	.last-lessons .lesson-info .body{
+		padding: 10px;
+	    border: 3px solid #EEE;
+	    margin: 8px 0 0 0;
+
+	}
+	/*End Index page*/
+
+}
+
+/*Small screen*/
+@media (min-width: 769px) and (max-width: 991px){
+
+	/* Start Navbar style */
+	.navbar-right~.navbar-right{
+		margin: 12px 0 0 0;
+    	padding: 0;
+	}
+
+	.navbar-right~.navbar-right.dropdown-pro{
+		margin: 2px 0 0 0;
+    	padding: 0;
+	}
+	div.custom-dropdown span:first-child{
+		margin: 0 0 0 5px;
+	}
+	.navbar-nav>li>a{
+		padding: 0px 3px 0 0;
+		margin: -2px 0 0 0;
+	}
+	.navbar .search-btn{
+		padding: 4px 11px 0 0;
+	}
+	/* End Navbar style */
+
+	/* Start Index Page */
+	.carousel-head .item img{
+		max-height: 380px;
+	}
+	.carousel-head .item .carousel-caption{
+		font-size: 18px;
+	}
+	/* End Index Page */
+
+
+	/* Footer Style */
+
+	/* Start Profile Page */
+	/*.pro .pro-cover .img-con img{
+		top: -58%;
+	}*/
+	/* End Profile Page */
+	
+
+}
+
+@media  (max-width: 991px){
+	/* Start Profile Page */
+	.camera{
+		/*opacity: 1;*/
+	}
+	.pro .pro-avatar .avatar-container .camera-menu{
+	    bottom: unset;
+	    right: -153%;
+	}
+
+	.pro .pro-avatar .avatar-container{
+		width: 120px;
+	    height: 120px;
+	    top: -131px;
+	}
+	/* End Profile Page */
+}
+
+/*Mobile Screens*/
+@media (max-width: 768px){
+
+	/* Start Navbar style */
+	.back-to-top{
+		bottom: 13px;
+    	right: 15px;	
+	}
+	.navbar-inverse{
+		min-height: 40px;
+	}
+	.upper-nav{
+		display: none !important;
+	}
+	.navbar>.container .navbar-brand{
+		margin: 0 0 0 6px;
+	}
+	.navbar .menu{
+		position: absolute;
+    	right: 4px;
+	}
+	.dropdown-pro {
+		position: absolute;
+	    top: -9px;
+	    right: 48px;
+
+	}
+	.dropdown-pro > li{
+		display: inline-block;
+	}
+	.navbar .notify, .navbar .msg{
+		margin: 0 1px;
+	    position: relative;
+	    top: 4px;
+	}
+	.dropdown-pro .search-btn{
+		padding: 14px 0 0 0;
+		top: 1.5px;
+   	 	left: -23px;
+	}
+	.navbar-nav > li > .img-profile + .dropdown-menu{
+		position: absolute;
+	    left: auto;
+	    background: #070707;
+
+	}
+	.navbar-nav > li > .img-profile + .dropdown-menu a{
+		padding: 9px 6px;
+		color: #FFF !important;
+	}
+	.index-header h1{
+		margin: 68px 0 27px 0;
+	    font-size: 33px;
+	    letter-spacing: 5px;
+	}
+	.index-header .inner *{
+		font-size: 14px;
+    	letter-spacing: 1px;
+	}
+	.index-header .see-more{
+		margin: 64px 0 10px 0;
+	}
+	.navbar .notify .dropdown-menu, .navbar .msg .dropdown-menu{
+		position: absolute;
+	    right: 0;
+	    left: auto;
+	}
+	.navbar .notify .lesson-con a{
+		padding: 9px 9px !important;
+	}
+	.navbar .notify .lesson-con a > span, .navbar .msg li > a > span{
+		font-size: 10px;
+		max-width: 81%;
+	}
+	.navbar .notify .lesson-con a > span p, .navbar .msg li > a > span p{
+		margin: 0px 0 5px 0;
+	}
+	.navbar .notify .lesson-con .file-img img{
+		width: 15px;
+    	height: 15px;
+	}
+	.navbar .notify .lesson-con .sender-img img, .navbar .msg .sender-img img{
+		width: 40px;
+	    height: 40px;
+	    margin: 0 0 0 5px;
+	}
+	.navbar .notify .dropdown-menu .dropdown-menu-con, .navbar .msg .dropdown-menu-con{
+		max-height: 300px;
+    	min-width: 350px;
+	}
+	/* End Navbar style */
+
+	/* Start list-menu style */
+	.list-menu{
+		width: 290px;
+	}
+	/* End list-menu style */
+
+	.lower-nav .lang,
+	.lower-nav .time-now{
+		display: inline-block;
+	}
+	.lower-nav .lang{
+		float: right;
+	}
+	.personal-info h1{
+		margin: 0 0 51px 0;
+	}
+	.info .info-body .input-container{
+		margin-bottom: 30px;
+	}
+
+	/* Footer Style */
+	/* Start Index Page */
+	.carousel-head .item img{
+		max-height: 270px;
+	}
+	.carousel-head .item .carousel-caption{
+		font-size: 16.5px;
+		/*bottom: 18%;*/
+	}
+	.last-lessons h2{
+		margin:0;
+	}
+	.last-lessons h2 span{
+		font-size: 25px;
+	}
+	.lesson-info .body h3{
+		font-size: 15px;
+    	margin: 0 0 9px 0;
+
+	}
+	.short-pref .pref-info{
+		text-align: center;
+	}
+	.short-pref .pref-info h3{
+		margin: 13px 0;
+	}
+	.short-pref .pref-info .bio{
+		font-size: 13px;
+	}
+
+	/* End Index Page */
+
+	/* Start Profile Page */
+	.pro .container, .pro .container-fluid{
+		padding: 0;
+	}
+	.pro .pro-cover{
+		height: 200px;
+		width: 100%;
+	}
+
+	.pro .pro-cover .camera-menu{
+		bottom: -57%;
+	}
+	.pro-body .info .b-info{
+		right: calc(50% - 111px/2);  /* 111px/2 => the half width */
+	}
+	.com .com-body .com-footer{
+		margin: 0 0 10px 0;
+	}
+	.com .com-body .com-footer p{
+		padding: 8px 9px;
+	}
+	.com .com-body .com-footer .under-com a{
+		padding: 2px 8px;
+    	font-size: 11px;
+	}
+	.com .com-body .com-footer .under-com .like{
+		font-size: 11px;
+	}
+	.com .com-body .com-footer .under-com .like .float{
+		right: -110px;
+	}
+	.com .com-body .com-header .lesson-n{
+		padding: 3px;
+	    right: 0;
+	    top: 0;
+	    max-width: 121px;
+	    border-radius: 0;
+	}
+	.com .com-body .com-footer .under-com .emoji-detail{
+		margin:6px 10px 0 0;
+	}
+
+	.com .com-body .com-header img{
+		border: 0;
+		width: 45px;
+    	height: 45px;
+	}
+	.com .com-body .child-com .com-header img{
+		width: 35px;
+    	height: 35px;
+	}
+
+	/* End Profile Page */
+
+	/* Start Lessons Page */
+	.lessons .files-con{
+		margin: 20px 17px 50px;
+	}
+	.lessons .files-con object{
+		min-height: 250px;
+	}
+	.lessons .files-con video{
+		max-width: 310px;
+	}
+	.com h2, .no-comments,
+	.com .com-now h3{
+		font-size: 20px;
+	}
+	.com .com-body .com-header img, .com .com-body .inner-con img{
+		width: 120px;
+    	height: 120px;
+	}
+	.com .child-com{
+		margin: 0px 24px 10px 0px;
+	    padding: 10px 10px 0px 10px
+	}
+	.com .com-body .child-com img{
+		width: 90px;
+    	height: 90px;
+	}
+	.com .com-header .com-n .name.admin{
+		font-size: 14px;
+	}
+	.com .com-body .com-header .date{
+		font-size: 10px;
+	}
+	/* End Lessons Page */
+
+	/* Start Titles Page */
+	.titles .folder-file img{
+		width: 50px;
+    	height: 50px;
+	}
+	.titles .folder-file .folder, .titles .folder-file .file{
+		padding: 1px;
+	    margin: 6px 3px;
+	}
+	.titles .header, .lessons .header{
+		padding: 40px 0;
+	}
+	.titles .header h1, .lessons .header h1{
+		font-size: 14px;
+		margin-bottom: 12px;
+	}
+	.lessons .header .under-name{
+		font-size: 11px;
+	}
+	.path-bar .breadcrumb{
+		font-size: 12px;
+	}
+	/* End Titles Page */
+
+	/* Start Messages Page */
+	.messages{
+		padding: 12px 0;
+	}
+	.messages .msg-members{
+		margin: 0 0 14px 0;
+	}
+	.new-msg-field{
+		left: 4%;
+    	right: auto;
+	}
+	/* End Messages Page */
+
+}
+
+
+@media (min-width: 0) and (max-width: 415px){
+	
+	/* Start Index Page */
+	.navbar>.container .navbar-brand{
+		padding: 11px 5px;
+    	font-size: 12px;
+	}
+	/*.index .bar-logo{
+		display: none;
+	}*/
+	.carousel-head .item img{
+		max-height: 200px;
+	}
+	.carousel-head .item .carousel-caption{
+		font-size: 11.5px;
+	    /*bottom: 10%;*/
+	    padding: 8px 0;
+	}
+	.carousel-head .item .carousel-caption .btn{
+		padding: 3px;
+    	font-size: 10px;
+	}
+	.last-lessons h2 span{
+		font-size: 19px;
+	}
+	.short-pref img{
+		max-width: 120px;
+	}
+	.index-header h1{
+		margin: 67px 0 26px 0;
+   		font-size: 24px;
+	}
+	.index-header .inner *{
+		font-size: 12px;
+		line-height: 1.7;
+	}
+	.index-header .see-more{
+		font-size: 11px;
+    	margin: 30px 0 6px 0;
+	}
+	.navbar .notify .dropdown-menu{
+		right: -49px;
+    	left: auto;
+	}
+	.navbar .msg .dropdown-menu{
+		right: -77px;
+	}
+	.notify .dropdown-menu:before{
+		right: 58px;
+	}
+	.msg .dropdown-menu:before{
+		right: 87px;
+	}
+	.navbar .msg .msg-header, .navbar .msg .msg-footer{
+		border-bottom: 1px solid #e6e6e6;
+	}
+	.navbar .notify, .navbar .msg{
+		top:7px;
+	}
+	/* End Index Page */
+
+	/* Start Profile Page */
+	.pro .pro-cover{
+		height: 125px;
+	}
+	.pro .pro-avatar .avatar-container{
+		width: 50px;
+	    height: 50px;
+	    top: -58px;
+	}
+	/*.pro .pro-cover .img-con img{
+		top: -50%;
+	}*/
+	.pro .pro-avatar .avatar-container .camera{
+		right: 21%;
+   		bottom: 8px;
+
+	}
+	.pro .pro-cover .camera-menu{
+		bottom: -93%;
+	}
+	.pro .pro-avatar .avatar img{
+		border: 0;
+	}
+	.pro .pro-avatar .avatar-info{
+		text-align: center;
+	}
+	.pro .pro-avatar .avatar-info > ul li{
+		display: block;
+		margin: 0 0 8px 0;
+	}
+	.avatar-info .links{
+		position: static;
+    	display: block;
+	}
+	.com .com-body .com-container{
+		padding: 10px 0;
+	}
+	.comments .container{
+		padding: 0;
+	}
+	.com{
+		padding: 0;
+	}
+	.com h2{
+		padding: 10px 8px;
+    	font-size: 13px;
+	}
+	.com .com-body .com-footer{
+		margin: 10px 7px 6px 16px;
+    	padding: 0;
+	}
+	.com .add-reply{
+		margin: 7px 0% 9px 5%;
+	}
+	.com .com-body .com-header .lesson-n{
+		max-width: 100px;
+	    text-overflow: ellipsis;
+	    overflow: hidden;
+	    white-space: nowrap;
+	    font-weight: normal;
+	    padding: 1px;
+	    right: -3px;
+	    top: 0px;
+	    border-radius: 0;
+	}
+	.com .com-body .com-header img{
+		/*border: 3px solid #FFF;*/
+	}
+	.com .child-com{
+		padding: 10px 3% 0 0;
+		margin: 4px 4px 0 8px;
+	}
+	/* End Profile Page */
+
+	/* Start Lessons Page */
+	.lessons .files-con video{
+		max-width: 270px;
+	}
+	.com .com-body .com-header img, .com .com-body .inner-con img{
+		width: 60px;
+	    height: 60px;
+	    border: 0;
+	}
+	.com .com-body .child-com img{
+		width: 40px;
+		height: 40px;
+	}
+	.com .com-body .com-container span.inner-con:last-of-type{
+		width: calc(100% - 65px);
+	}
+	.com .com-body .com-footer .under-com .like .float{
+		right: -119px;
+	}
+	/* End Lessons Page */
+
+}
+
