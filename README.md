@@ -9,6 +9,10 @@ the website contains
 * exams
 * and more
 
+## Home Page
+
+<img src="./site_images/index_page.png">
+
 ## Programming Languages
 * Pure PHP
 * MySQL
