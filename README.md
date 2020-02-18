@@ -13,6 +13,11 @@ the website contains
 
 <img src="./site_images/index_page.png">
 
+## Recent Added Files Section
+
+<img src="./site_images/page2.PNG">
+
+
 ## Programming Languages
 * Pure PHP
 * MySQL
